@@ -58,7 +58,7 @@ def walk_dogs
 end 
 
 def feed_cats 
-  Cat.all.each {|cat| cat.mood }
+  Cat.all.each {|cat| cat.mood = "happy"}
 end 
   
 end
