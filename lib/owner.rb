@@ -66,6 +66,7 @@ def sell_pets
   @pets.each do |species, pets|
    pets.map {|pet| pets.mood = "nervous"}
 end 
-
+pets.clear
+end 
   
 end
