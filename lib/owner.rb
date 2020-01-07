@@ -66,6 +66,9 @@ def walk_dogs
     if species == :dogs
       instances.each do |dog|
         dog.mood = "happy"
+      end 
+    end 
+  end 
 end 
 
 def feed_cats 
