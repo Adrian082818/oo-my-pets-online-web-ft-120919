@@ -64,7 +64,8 @@ def walk_dogs
   # Dog.all.each {|dog| dog.mood = "happy"}
   @pets.collect do |species, instances|
     if species == :dogs
-      instances.each 
+      instances.each do |dog|
+        dog.mood = "happy"
 end 
 
 def feed_cats 
