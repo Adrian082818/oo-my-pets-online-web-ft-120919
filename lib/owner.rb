@@ -69,7 +69,11 @@ end
 
 def sell_pets 
 Cat.collect do |species, instances|
-  instances.each do ||
+  instances.each do |pet|
+    pet.mood = "nervous"
+  end 
+end 
+
 end 
   
 end
