@@ -69,7 +69,6 @@ end
 
 def list_pets 
   puts "I have #{Cat.all.count}, and #{Dog.count}." 
-  Dog.all.count 
 end 
   
 end
