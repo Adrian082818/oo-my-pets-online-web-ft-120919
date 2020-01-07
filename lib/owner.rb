@@ -67,7 +67,7 @@ end
 
 def sell_pets 
 pets.each do |pet, type|
-  
+  type.map do |pet|
 end 
 end 
   
