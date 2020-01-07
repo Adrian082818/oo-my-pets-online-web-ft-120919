@@ -61,7 +61,9 @@ def buy_dog(dog)
 end 
 
 def walk_dogs
-  Dog.all.each {|dog| dog.mood = "happy"}
+  # Dog.all.each {|dog| dog.mood = "happy"}
+  @pets.collect do |species, instances|
+    if species == :dog
 end 
 
 def feed_cats 
