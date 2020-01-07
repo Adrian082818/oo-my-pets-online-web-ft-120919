@@ -68,7 +68,7 @@ def sell_pets
 end 
 
 def list_pets 
-  return "I have #{Dog.all.length} dog(s), and  #{Cat.all.length} cat(s)." 
+  return "I have #{Dog.length} dog(s), and  #{Cat.length} cat(s)." 
 end 
   
 end
