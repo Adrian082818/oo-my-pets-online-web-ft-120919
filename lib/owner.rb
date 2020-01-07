@@ -67,8 +67,8 @@ end
 
 
 def sell_pets 
-Cat.new(name, mood)
-Dog.new(name, mood)
+Cat.new()
+Dog.new()
 end 
   
 end
