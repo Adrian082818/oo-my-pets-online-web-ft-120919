@@ -70,7 +70,7 @@ end
 def sell_pets 
 pets.each do |pet, arr|
   arr.map do |pet|
-    pet.mood = "nervous"
+    pets.mood = "nervous"
   end 
 end 
   @@pets.clear
