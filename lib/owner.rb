@@ -68,6 +68,9 @@ end
 def sell_pets 
 pets.each do |pet, type|
   type.map do |pet|
+    pet.mood = "nervous"
+  end 
+  type.clear
 end 
 end 
   
