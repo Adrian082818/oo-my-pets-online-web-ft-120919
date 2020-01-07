@@ -63,8 +63,8 @@ def feed_cats
 end 
 
 def sell_pets 
-  @pets.each do |species, pet|
-    pets.mood = "nervous"
+  @pets.each do |species, pets|
+   pets.map {|pet| pets.mood = "nervous"}
 end 
   
 end
