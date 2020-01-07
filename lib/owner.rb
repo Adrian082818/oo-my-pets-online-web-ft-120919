@@ -67,8 +67,8 @@ end
 
 
 def sell_pets 
-Cat.new(name, owner)
-Dog.new(name, owner)
+Cat.all.each {|cat| cat.mood = "nervous"}
+Dog.all.each {|dog| dog.mood = "nervous"}
 end 
   
 end
