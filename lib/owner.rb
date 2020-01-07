@@ -64,7 +64,7 @@ end
 
 def sell_pets 
   Cat.all.each {|cat| cat.mood = "nervous"} && Dog.all.each {|dog| dog.mood = "nervous"}
-  owner = []
+  owner = nil
 end 
   
 end
