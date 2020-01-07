@@ -3,13 +3,12 @@ class Owner
   @@all = []
   
   
-  attr_accessor :owner, :pets, :cat, :dog
+  attr_accessor :owner
   attr_reader :name, :species 
 
  def initialize(name, species="human")
     @name = name 
     @species = species
-    @pets = {:cats => [], :dogs => []}
     save
   end 
   
@@ -51,13 +50,11 @@ end
 
 
 def buy_cat(cat)
-# Cat.new(cat, self)
-@pets[:cats] << Cat.new(cat, self)
+Cat.new(cat, self)
 end 
 
 def buy_dog(dog)
-  # Dog.new(dog, self)
-  @pets[:dogs] << Dog.new(dog, self)
+  Dog.new(dog, self)
 end 
 
 def walk_dogs
@@ -70,12 +67,7 @@ end
 
 
 def sell_pets 
-@pets.collect do |species, instances|
-  instances.each do |pet|
-    pet.mood = "nervous"
-  end
-  instances.clear
-end
+
 end 
   
 end
