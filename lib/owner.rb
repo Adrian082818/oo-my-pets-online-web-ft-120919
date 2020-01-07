@@ -68,12 +68,7 @@ end
 
 
 def sell_pets 
-pets.each do |pet, arr|
-  arr.map do |pet|
-    pets.mood = "nervous"
-  end 
-end 
-  @@pets.clear
+Cat.each do ||
 end 
   
 end
