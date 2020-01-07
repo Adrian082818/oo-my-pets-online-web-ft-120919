@@ -72,8 +72,8 @@ pets.each do |pet, arr|
   arr.map do |pet|
     pet.mood = "nervous"
   end 
-  arr.clear
 end 
+  arr.clear
 end 
   
 end
