@@ -29,9 +29,9 @@ def save
   @@all << self 
 end 
 
-def pets 
-  @@pets
-end 
+# def pets 
+#   @@pets
+# end 
 
 def self.count
   @@all.count 
