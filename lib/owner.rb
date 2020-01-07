@@ -28,10 +28,6 @@ def save
   @@all << self 
 end 
 
-# def pets 
-#   @@pets
-# end 
-
 def self.count
   @@all.count 
 end 
@@ -69,8 +65,7 @@ end
 def sell_pets 
 Cat.all.each {|cat| cat.mood = "nervous"}
 Dog.all.each {|dog| dog.mood = "nervous"}
-Cat.new() 
-Dog.new()
+@@all = []
 end 
   
 end
