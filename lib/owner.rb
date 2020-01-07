@@ -69,6 +69,7 @@ end
 
 def sell_pets 
 Cat.collect do |species, instances|
+  instances.each do ||
 end 
   
 end
