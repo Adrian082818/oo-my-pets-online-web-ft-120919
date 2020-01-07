@@ -66,7 +66,9 @@ def pets
 end 
 
 def sell_pets 
-pets.each do |type|
+pets.each do |pet, type|
+  
+end 
 end 
   
 end
