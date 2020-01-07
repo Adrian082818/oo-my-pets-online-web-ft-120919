@@ -68,7 +68,7 @@ def sell_pets
 end 
 
 def list_pets 
-  puts "I have #{Cat.all.count}, and #{Dog.all.count}." 
+  puts "I have #{Dog.all.count} dog(s), and  #{Cat.all.count} cat(s)." 
 end 
   
 end
