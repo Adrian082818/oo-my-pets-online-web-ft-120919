@@ -28,6 +28,10 @@ def save
   @@all << self 
 end 
 
+def pets 
+  @@pets
+end 
+
 def self.count
   @@all.count 
 end 
@@ -62,9 +66,6 @@ def feed_cats
   Cat.all.each {|cat| cat.mood = "happy"}
 end 
 
-def pets 
-  @@pets
-end 
 
 def sell_pets 
 pets.each do |pet, type|
