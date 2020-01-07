@@ -46,7 +46,8 @@ end
 
 
 def buy_cat(cat)
-Cat.new(cat, self)
+# Cat.new(cat, self)
+@@pets[:cats].each 
 end 
 
 def buy_dog(dog)
