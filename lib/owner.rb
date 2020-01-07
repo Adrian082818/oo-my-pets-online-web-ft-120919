@@ -54,7 +54,7 @@ def buy_dog(dog)
 end 
 
 def walk_dogs
-  Dog.each {|dog| }
+  Dog.each {|dog| dog.mood = }
 end 
   
 end
