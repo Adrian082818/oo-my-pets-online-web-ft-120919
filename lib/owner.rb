@@ -60,5 +60,9 @@ end
 def feed_cats 
   Cat.all.each {|cat| cat.mood = "happy"}
 end 
+
+def sell_pets 
+  
+end 
   
 end
