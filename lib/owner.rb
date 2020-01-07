@@ -67,7 +67,8 @@ end
 
 
 def sell_pets 
-
+Cat.new(mood)
+Dog.new(mood)
 end 
   
 end
